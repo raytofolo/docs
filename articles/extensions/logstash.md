@@ -15,7 +15,7 @@ To install and configure this extension, click on the _Auth0 Logs to Logstash_ b
 At this point you should set the following configuration variables:
 
 - **Schedule**: The frequency with which logs should be exported. The schedule can be customized even further after creation.
-- **BATCH_SIZE**: The ammount of logs to be read on each execution. Maximun is 100.
+- **BATCH_SIZE**: The amount of logs to be read on each execution. Maximun is 100.
 - **LOGSTASH_URL**: Your Logstash URL as defined for use with `logstash-input-http` plugin.
 - **LOGSTASH_INDEX**: Your Logstash Index to which the logs will be routed.
 - **LOG_LEVEL**: The minimal log level of events that you would like sent to Logstash.
